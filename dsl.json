@@ -4,7 +4,7 @@
 		{
 			"name": "generate Test DSL",
 			"target": "src/jobs/generateTestDSL.groovy",
-			"folders" ["DEV", "QA"]
+			"folders": ["DEV", "QA"]
 		}
 	]
 	
