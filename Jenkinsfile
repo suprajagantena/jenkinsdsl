@@ -12,7 +12,7 @@ node() {
 	 checkout([
 		$class: 'GitSCM',
 		branches: [[name: '*/master']],
-		extensions: [[$calss: 'RelativeTargetDirectory', relativeTargetDir: '.']],
+		extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: '.']],
 		userRemoteConfigs: [[url: 'https://github.com/suprajagantena/jenkinsdsl.git']]
 	 ])
  }
