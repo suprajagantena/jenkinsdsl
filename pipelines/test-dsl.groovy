@@ -1,6 +1,6 @@
 @Library('sharedlibs') _
 
-node {
+node() {
 	println sayHello()
 
 }
