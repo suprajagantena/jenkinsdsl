@@ -2,5 +2,4 @@
 
 node() {
 	println sayHello()
-
 }
