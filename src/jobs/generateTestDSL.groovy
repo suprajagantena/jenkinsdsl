@@ -1,4 +1,4 @@
-piplineJob('test-dsl'){
+pipelineJob('test-dsl'){
 
 	definition{
 		cpsScm{
@@ -6,6 +6,7 @@ piplineJob('test-dsl'){
 				git {
 					remote {
 						url('https://github.com/suprajagantena/jenkinsdsl.git')
+						credentials('None')
 					}
 					branch('*/master')
 				}
