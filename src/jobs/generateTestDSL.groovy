@@ -11,7 +11,7 @@ pipelineJob('test-dsl'){
 					branch('*/master')
 				}
 			}
-			scritPath("pipelines/test-dsl.groovy")
+			scriptPath("pipelines/test-dsl.groovy")
 		}
 	
 	}

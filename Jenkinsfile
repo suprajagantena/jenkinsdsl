@@ -1,6 +1,14 @@
-def jsonParse(def json){
-	new groovy.json.JsonSlurper().parseText(json)
+import groovy.json.JsonSlurperClassic 
+
+
+@NonCPS
+def jsonParse(def json) {
+    new groovy.json.JsonSlurperClassic().parseText(json)
 }
+
+//def jsonParse(def json){
+//	new groovy.json.JsonSlurper().parseText(json)
+//}
 
 node() {
 
