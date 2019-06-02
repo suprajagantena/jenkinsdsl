@@ -1,8 +1,5 @@
-import groovy.json.JsonSlurperClassic
-
-@NonCPS
 def jsonParse(def json){
-	new groovy.json.JsonSlurperClassic().parseText(json)
+	new groovy.json.JsonSlurper().parseText(json)
 }
 
 node() {
@@ -11,7 +8,7 @@ node() {
 	 
 	 checkout([
 		$class: 'GitSCM',
-		branches: [[name: '*/master']],
+		branches: [[name: env.GIT_BRANCH]],
 		extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: '.']],
 		userRemoteConfigs: [[url: 'https://github.com/suprajagantena/jenkinsdsl.git']]
 	 ])
