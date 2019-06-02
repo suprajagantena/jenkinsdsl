@@ -5,7 +5,7 @@ piplineJob('test-dsl'){
 			scm{
 				git {
 					remote {
-						url('')
+						url('https://github.com/suprajagantena/jenkinsdsl.git')
 					}
 					branch('*/master')
 				}
