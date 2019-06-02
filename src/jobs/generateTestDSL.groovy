@@ -10,7 +10,7 @@ piplineJob('test-dsl'){
 					branch('*/master')
 				}
 			}
-			scritpath("pipelines/test-dsl.groovy")
+			scritPath("pipelines/test-dsl.groovy")
 		}
 	
 	}
