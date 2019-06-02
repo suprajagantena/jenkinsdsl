@@ -1,4 +1,4 @@
-pipelineJob('test-dsl'){
+pipelineJob('$ENV/test-dsl'){
 
 	definition{
 		cpsScm{
