@@ -5,6 +5,11 @@
 			"name": "generate Test DSL",
 			"target": "src/jobs/generateTestDSL.groovy",
 			"folders": ["DEV", "QA"]
+		},
+		{
+			"name": "generate create s3 bucket",
+			"target": "src/jobs/generates3bucket.groovy",
+			"folders": ["DEV", "QA"]
 		}
 	]
 	
