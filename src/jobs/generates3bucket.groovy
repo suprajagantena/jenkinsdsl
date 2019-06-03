@@ -1,7 +1,7 @@
 pipelineJob("$ENV/create-s3-bucket"){
 
     parameters {
-        StringParam('BUCKET_NAME','','emter bucket name')
+        stringParam('BUCKET_NAME','','emter bucket name')
     }
     
 	definition{
