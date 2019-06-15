@@ -1,4 +1,4 @@
-pipelineJob("create-spring-api-deploy"){
+pipelineJob("$ENV/create-spring-api-deploy"){
  
 	definition{
 		cpsScm{
