@@ -10,7 +10,15 @@
 			"name": "generate create s3 bucket",
 			"target": "src/jobs/generates3bucket.groovy",
 			"folders": ["DEV", "QA"]
+		},
+
+		{
+
+                        "name": "generate spring api deplo",
+                        "target": "src/jobs/generatespringapideploy.groovy",
+                        "folders": ["DEV"]
 		}
+
 	]
 	
 
